@@ -6,8 +6,8 @@ import java.util.List;
 public class PrinterCentralizer {
 
     private static PrinterCentralizer instance = null;
-    public static List<Printer> printers = new ArrayList<>();
-    private static int index = 0;
+    public List<Printer> printers = new ArrayList<>();
+    private int index = 0;
 
     public static PrinterCentralizer getInstance(){
         if(instance == null){
