@@ -11,7 +11,7 @@ public class Printer {
     }
 
     public void print(String text){
-        System.out.print(" printed " + text + " on printer " + brand +"\n");
+        System.out.print(" printed '" + text + "' on printer " + brand + "\n");
         System.out.println(text);
     }
 }
